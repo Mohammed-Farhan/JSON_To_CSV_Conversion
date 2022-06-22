@@ -1,14 +1,14 @@
-Names	Person's Age	Gender
-Johnson	18.0	male
-Harry	28.0	male
-Ron	25.0	male
-Phillip	32.0	male
-Marque	45.0	male
-Brownie	26.0	male
-Mike	16.0	male
-Jenny	6.0	female
-Weasley	19.0	female
-Mike	21.0	male
-Jon	34.0	
-Windsor		male
-	64.0	male
+Names,Person's Age,Gender
+Johnson,18.0,male
+Harry,28.0,male
+Ron,25.0,male
+Phillip,32.0,male
+Marque,45.0,male
+Brownie,26.0,male
+Mike,16.0,male
+Jenny,6.0,female
+Weasley,19.0,female
+Mike,21.0,male
+Jon,34.0,
+Windsor,,male
+,64.0,male

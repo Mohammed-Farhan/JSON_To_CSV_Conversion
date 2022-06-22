@@ -26,7 +26,7 @@ class JSONToCSV:
 		all_df = pd.concat(list_df)
 		print(all_df)
 		headerList =["Names", "Person's Age", "Gender"]
-		all_df.to_csv('output.csv',sep='\t',header=headerList, encoding='utf-8',index=False)
+		all_df.to_csv('output.csv',header=headerList, encoding='utf-8',index=False)
 		print("All JSON files in {} are successfully converted into a CSV "
 			  "file named {}".format(self.source_path, self.destination_path))
 

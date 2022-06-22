@@ -9,7 +9,7 @@ class JSONToCSV:
 		:parameter str source_path: Path to JSON files.
 		:parameter str destination_path: Output path.
 		"""
-		self.source_path =  '../daata/'
+		self.source_path =  '../JSON_Conversion/'
 		self.destination_path ='../output.csv'
 		 
 
@@ -25,13 +25,13 @@ class JSONToCSV:
 				list_df.append(df)
 		all_df = pd.concat(list_df)
 		print(all_df)
-		headerList =["Names", "Person's Age", "Created D/T"]
+		headerList =["Names", "Person's Age", "Gender"]
 		all_df.to_csv('output.csv',sep='\t',header=headerList, encoding='utf-8',index=False)
 		print("All JSON files in {} are successfully converted into a CSV "
 			  "file named {}".format(self.source_path, self.destination_path))
 
 if __name__ == '__main__':
-	json_path = '../daata/*.json' # Path to JSON files
+	json_path = '../JSON_Conversion/*.json' # Path to JSON files
 	output_path =  '../output.csv'  # Output path
 
 	converter = JSONToCSV(json_path, output_path)

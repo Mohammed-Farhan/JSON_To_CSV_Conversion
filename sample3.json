@@ -1,3 +1,3 @@
-[{"name": "Phillip", "age": 32, "created_at": "2022-02-04 09:30:00"}, 
- {"name": "Marcus", "age":45, "created_at": "2022-02-02 17:20:00"},
- {"name": "Brownie", "age": 26, "created_at": "2022-02-02 09:10:00"}]
+[{"name": "Phillip", "age": 32, "gender":"male"}, 
+ {"name": "Marque", "age":45, "gender":"male"},
+ {"name": "Brownie", "age": 26, "gender":"male"}]

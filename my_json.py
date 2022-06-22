@@ -8,7 +8,7 @@ fname="output1.csv"
 
 with open(fname,"w") as file:
     csv_file=csv.writer(file)
-    csv_file.writerow(["Name", " Age", "Created"])
+    csv_file.writerow(["FirstName", "Age", "Gender"])
     
     for item in data:
-        csv_file.writerow([item['name'],item['age'],item['created_at']])
+        csv_file.writerow([item['name'],item['age'],item['gender']])

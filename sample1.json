@@ -1,5 +1,4 @@
-[{"name": "John", "age": 18, "created_at": "2022-02-01 09:00:00"},
- {"name": "Harry", "age": 28, "created_at": "2022-01-01 09:10:00"},
- {"name": "Ron", "age": 25, "created_at": "2022-05-02 07:12:00"}
-
+[{"name": "Johnson", "age": 18, "gender":"male"},
+ {"name": "Harry", "age": 28, "gender":"male"},
+ {"name": "Ron", "age": 25, "gender":"male"}
 ]
